@@ -16,22 +16,14 @@ html {
     min-height: 100vh;
     margin: 0;
     padding: 0;
-    
-    
 }
-
-
 
 .header {
     background-color: #829985;
 }
 
 .main {
-    border: 1px solid red;
-}
-
-.footer {
-    border: 1px solid red;
+    background-color: cornsilk;
 }
 
 .container {
@@ -81,7 +73,11 @@ html {
     letter-spacing: 5px;
     color: #021004;
     padding-top: 20px;
-    
+  }
+
+  .section-subtitle {
+    color: #010043;
+    padding: 20px;
   }
 
   .img {
@@ -131,11 +127,17 @@ html {
 
   .section-list {
       list-style: none;
+      padding: 20px;
   }
 
   .section-link {
       text-decoration: none;
-      color: black;
+      color: #010043;
+      transition: .9s;
+  }
+
+  .section-link:hover {
+      text-decoration: underline;
   }
 
   .section-image {
@@ -146,6 +148,7 @@ html {
 
   .section-list_type {
       list-style-type: disclosure-closed;
+      padding: 20px;
   }
 
   .footer {
@@ -162,6 +165,7 @@ html {
   .footer-icon{
         max-width: 121px;
         max-height: 45px;
+        width: 100%;
   }
 
 @media (max-width: 768px) {
