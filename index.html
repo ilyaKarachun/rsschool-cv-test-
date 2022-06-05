@@ -5,11 +5,117 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./assets/img/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300;1,500&display=swap" rel="stylesheet">
     <title>CV Ilya Karachun</title>
 </head>
-<body>
-    <img src="./assets/img/avatar.jpg" alt="my photo">
-    <h1 class="h1">Ilya Karachun</h1> 
+<body class="body">
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#profile" class="nav-link">Profile</a></li>
+                    <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                    <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                    <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+                    <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
+                    <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                    <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                    <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+                </ul>
+            </nav>
+        </div>  
+    </header>   
+    <main class="main">
+        <div class="container main-comtainer">
+            <section class="section-profile" id="profile">
+                
+                    <h1 class="profile-title">Ilya Karachun</h1>
+                    <p class="profile-subtitle">junior front-end developer</p>
+                    <img src="./assets/img/avatar.jpg" alt="my photo" class="img">
+                    
+               
+            </section>
+            <section class="section" id="contacts">
+                <div class="section-title">
+                    <h2>Contacts</h2>
+                    <ul class="section-list">
+                        <li class="section-iteam"><img src="./assets/img/color-icons-green-home.svg" alt="city" class="section-image">Minsk, Belarus</li>
+                        <li class="section-iteam"><img src="./assets/img/mail.svg" alt="mail" class="section-image">Email: <a href="mail.ru" class="section-link">karachun_ilya94@mail.ru</a></li>
+                        <li class="section-iteam"><img src="./assets/img/github.svg" alt="github" class="section-image">Github: <a href="https://github.com/ilyaKarachun" class="section-link">@ilyaKarachun</a></li>
+                        <li class="section-iteam"><img src="./assets/img/logo-telegram.svg" alt="Telegram" class="section-image">Telegram: @Ilya_Karachun</li>
+                        <li class="section-iteam"><img src="./assets/img/new-instagram-logo-glyph.svg" alt="instagram" class="section-image">Instagram <a href="https://www.instagram.com/p/CGIMA41MR04/" class="section-link">@karachun.ilya</a> </li>
+                        <li class="section-iteam"><img src="./assets/img/icons8-discord-250.svg" alt="Discord" class="section-image">Discord: Ilya_Karachun#3556 </li>
+                    </ul>
+                </div>
+            </section>
+            <section class="section" id="summary">
+                <div class="section-title">
+                    <h2>Summary</h2>
+                    <p>I live in Minsk.  I study WEB-development at Yandex.Practicum. 
+                        I want to change my specialty and get new skills. I only do two things best in my life.
+                         This is study and work. I just want better conditions for work and life. Graduated Belarusian 
+                         State Medical University in 2018.</p>
+                </div>
+            </section>
+            <section class="section" id="skills">
+                <div class="section-title">
+                    <h2>Skills</h2>
+                    <ul class="section-list section-list_type">
+                        <li class="section-iteam">Web-development: HTML, CSS, JAvaScript</li>
+                        <li class="section-iteam">Version control: GIT, Github</li>
+                        <li class="section-iteam">Graphics: Figma</li>
+                    </ul>
+                </div>
+            </section>
+            <section class="section" id="code">
+                <div class="section-title">
+                    <h2>Code</h2>
+                </div>
+            </section>
+            <section class="section" id="courses">
+                <div class="section-title">
+                    <h2>Courses</h2>
+                    <p>Yandex.Praktikum</p>
+                </div>
+            </section>
+            <section class="section" id="projects">
+                <div class="section-title">
+                    <h2>Projects</h2>
+                    <ul class="section-list section-list_type">
+                        <li class="section-iteam"><a href="https://ilyakarachun.github.io/ikarachun.com/" class="section-link">My first project made on FLex and without adaptive</a></li>
+                        <li class="section-iteam"> <a href="https://ilyakarachun.github.io/russian-travel/" class="section-link">My second project made on mix Flex&Grid</a></li>
+                        
+                    </ul>
+                </div>
+            </section>
+            <section class="section" id="education">
+                <div class="section-title">
+                    <h2>Education</h2>
+                    <p>Belarusian State Medical University</p>
+                </div>
+            </section>
+            <section class="section" id="languages">
+                <div class="section-title">
+                    <h2>Languages</h2>
+                    <ul class="section-list section-list_type">
+                        <li class="section-iteam">English: B1/B2</li>
+                        <li class="section-iteam">German: A2</li>
+                        <li class="section-iteam">Russian: native</li>
+                    </ul>
+                </div>
+            </section>
+        </div> 
+    </main>
+    <footer class="footer">
+       
+    </footer>
+   
+  
 
 
     
