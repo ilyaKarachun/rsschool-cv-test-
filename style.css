@@ -168,10 +168,32 @@ html {
         width: 100%;
   }
 
-@media (max-width: 768px) {
-    .section{
-        width:100%;
+  @media (max-width: 1220px){
+    .body{
+        font-weight: 300;
+        font-size: 16px;
     }
+    .img {
+        max-width: 300px;
+        max-height: 300px;
+    }
+    .section-code {
+        font-size: 12px;
+    }
+  }
+
+  @media (max-width: 920px) {
+      .img {
+          max-width: 200px;
+          max-height: 200px;
+      }
+      .section-code {
+          font-size: 8px;
+      }
+  }
+
+@media (max-width: 768px) {
+
     .section-title {
         font-size: 16px;
     }
