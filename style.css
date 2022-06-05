@@ -67,10 +67,11 @@ html {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
     column-gap: 40px;
+    
 }
 
 .section {
-    
+    border-bottom: 1px solid #829985;
 }
 
 .section-title {
@@ -80,7 +81,7 @@ html {
     letter-spacing: 5px;
     color: #021004;
     padding-top: 20px;
-    border-bottom: 1px solid #829985;
+    
   }
 
   .img {
@@ -145,6 +146,22 @@ html {
 
   .section-list_type {
       list-style-type: disclosure-closed;
+  }
+
+  .footer {
+      padding: 20px;
+      background-color: #829985;
+  }
+
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+  }
+
+  .footer-icon{
+        max-width: 121px;
+        max-height: 45px;
   }
 
 @media (max-width: 768px) {
